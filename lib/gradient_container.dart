@@ -1,4 +1,4 @@
-import 'package:first_app/styled_text.dart';
+import 'package:first_app/roll_dice.dart';
 import 'package:flutter/material.dart';
 
 const beginAlignment = Alignment.topLeft;
@@ -22,7 +22,7 @@ class GradientContainer extends StatelessWidget {
         ),
       ),
       child: const Center(
-        child: StyledText(),
+        child: RollDice(),
       ),
     );
   }
